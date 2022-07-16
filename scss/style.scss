@@ -1,0 +1,144 @@
+@use 'variables' as *;
+:root{
+  background-repeat: no-repeat;
+  background-size: 100% ;
+background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAI8AUAMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAACAwQFAQAGB//EACIQAAICAQQDAQEBAAAAAAAAAAABAgMRBCFRYRITMRRBIv/EABsBAAMBAQEBAQAAAAAAAAAAAAMEBQIGAQAH/8QAIBEAAwEAAgIDAQEAAAAAAAAAAAECAwQREiEFE1EUIv/aAAwDAQACEQMRAD8A03pXwLlp3wfQS064Ey0y4K87k/b4z8MJ0M56XwbUtKuAfy9BVuS9PjqMhVPgNVPg1Py9BR0v+vh796Fa+Pozo1bfBkazR/L0eWm6MfchWuFaI4RGxiU/n6Oqp8GXomY/kr8NBxFuB3zO+WRFH6peSYtwXB5VoYdia8hWuOhaqQ6qhNN4OpFMI4ijFWwF8WfwT6EcdC4K0glFGPsaAVw5ZD6Ojy05f4IJVI8ewGuAvw+cjdkbGzJh1arL+l1N+cDjz6Oz04/RpKQyLJK55KawbQnefRRXu1koTJYMogAoT0Q6IyKAghiB0DSCQSOIJAmfM/KKrWjS0t3wya0W0ZTR0FSjs9oTRvUWbIurlsZGlnnBoVSzsJ6Lojbz0XVvJVWR1MsrewtSJehTENC4sNMG0CGIJC/I95mfAyz8vrr3K6oDvy4/g2uvBVWypHW3qmFSvHBfQyaESqqOAVPsm712W1MrrkQ1sojIC0S7LIyDUiVTC9hnxBFLngB2bE8rcCpXI2oB3RnSo6EunD+Gk10LnBMl5btMtLRkcY4HRPOGDnwoxfkY0fY6LwMUybywc9qQZLsRss9mDkruyGV/Yqd/YScxa76LJ39iZX7/AEhs1HYiV+X9GJx9Cd6ez6RrAEg5NCZyOZiGX/ICYiUsB2TRLbYUcYZitEkFKwRZdj+ibLSay3spZ5iOuo+eoEyub/pNKwDyG5z6ELsfK3sDzYtZY+uts9q1IOM6tn0c70IneZ71HYuV75JUcUc/sTLLLiW24TK1sTKTY5ngkfPd0FZaIlJsPxbCjRn6hpJSgTVUTpNjI1tlcNPkor04LTdIJHFdP2S1Uvgtqp2H10JFEKyVyOV2VMOOpPmVaEp5JM4ChLcu+COB4/KbfssW4yNeRVLyWVoHXo6Li/7PQqHwqQcIj4RQtdstZYpgQqHwrCih0ET9qY2s0jkKx0azsEURiSN7aMuuj//Z");
+  @media(max-width: $desktopBreakpoint) {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAI8AUAMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAACAwQFAQAGB//EACIQAAICAQQDAQEBAAAAAAAAAAABAgMRBCFRYRITMRRBIv/EABsBAAMBAQEBAQAAAAAAAAAAAAMEBQIGAQAH/8QAIBEAAwEAAgIDAQEAAAAAAAAAAAECAwQREiEFE1EUIv/aAAwDAQACEQMRAD8A03pXwLlp3wfQS064Ey0y4K87k/b4z8MJ0M56XwbUtKuAfy9BVuS9PjqMhVPgNVPg1Py9BR0v+vh796Fa+Pozo1bfBkazR/L0eWm6MfchWuFaI4RGxiU/n6Oqp8GXomY/kr8NBxFuB3zO+WRFH6peSYtwXB5VoYdia8hWuOhaqQ6qhNN4OpFMI4ijFWwF8WfwT6EcdC4K0glFGPsaAVw5ZD6Ojy05f4IJVI8ewGuAvw+cjdkbGzJh1arL+l1N+cDjz6Oz04/RpKQyLJK55KawbQnefRRXu1koTJYMogAoT0Q6IyKAghiB0DSCQSOIJAmfM/KKrWjS0t3wya0W0ZTR0FSjs9oTRvUWbIurlsZGlnnBoVSzsJ6Lojbz0XVvJVWR1MsrewtSJehTENC4sNMG0CGIJC/I95mfAyz8vrr3K6oDvy4/g2uvBVWypHW3qmFSvHBfQyaESqqOAVPsm712W1MrrkQ1sojIC0S7LIyDUiVTC9hnxBFLngB2bE8rcCpXI2oB3RnSo6EunD+Gk10LnBMl5btMtLRkcY4HRPOGDnwoxfkY0fY6LwMUybywc9qQZLsRss9mDkruyGV/Yqd/YScxa76LJ39iZX7/AEhs1HYiV+X9GJx9Cd6ez6RrAEg5NCZyOZiGX/ICYiUsB2TRLbYUcYZitEkFKwRZdj+ibLSay3spZ5iOuo+eoEyub/pNKwDyG5z6ELsfK3sDzYtZY+uts9q1IOM6tn0c70IneZ71HYuV75JUcUc/sTLLLiW24TK1sTKTY5ngkfPd0FZaIlJsPxbCjRn6hpJSgTVUTpNjI1tlcNPkor04LTdIJHFdP2S1Uvgtqp2H10JFEKyVyOV2VMOOpPmVaEp5JM4ChLcu+COB4/KbfssW4yNeRVLyWVoHXo6Li/7PQqHwqQcIj4RQtdstZYpgQqHwrCih0ET9qY2s0jkKx0azsEURiSN7aMuuj//Z");
+  }
+}
+#contener {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  @media(max-width: $desktopBreakpoint){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .weather_napis {
+    padding-left: 25%;
+    font-family: $headerFont;
+
+  }
+
+
+  .weather_image {
+    margin-right: 30px;
+    border-radius: 30px;
+
+
+  }
+
+  .calendar_bigger_napis {
+    padding-left: 25%;
+    font-family: $headerFont;
+  }
+
+  .calendar_bigger {
+    border-radius: 20px;
+  }
+}
+main{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  @media(max-width: $desktopBreakpoint){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  }
+  .photos{
+    margin-right: 50px;
+    margin-top:50px;
+
+  }
+  .photos_napis{
+    margin-left: 17%;
+  }
+  .helath{
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+  .health_napis{
+    margin-left: 17%;
+  }
+  .facebook{
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+  .facebook_napis{
+    margin-left: 12%;
+  }
+  .settings{
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .settings_napis{
+    margin-left: 5%;
+  }
+  .calendary{
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+  .calendar_napis{
+    margin-left: 10%;
+  }
+  .maps{
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .maps_napis{
+    margin-left:15%;
+  }
+  .wallet{
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+  .wallet_napis{
+    margin-left:15% ;
+  }
+  .notes{
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .notes_napis{
+    margin-left:15%;
+  }
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  @media(max-width: $desktopBreakpoint){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .compas {
+    margin-right: 30px;
+  }
+
+  .compas_napis {
+    margin-left: 20%;
+  }
+
+  .message {
+    margin-left: 30px;
+  }
+
+  .message_napis {
+    margin-left: 15%;
+  }
+}
+
